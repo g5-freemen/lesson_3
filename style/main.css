@@ -1,0 +1,169 @@
+.wrap
+    {
+        height: 590px;
+        width: 1400px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+h1
+    {
+        color: #212121;
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        margin: 0 0;
+        padding: 107px 0 0 0;
+        
+    }
+
+hr
+    {
+        margin: 30px auto;
+        border: none; /* Убираем границу */
+        background-color: #FF8C2D; /* Цвет линии */
+        height: 2px; /* Толщина линии */
+        width: 64px;
+
+
+    }
+
+h3
+    {
+        height: 14px;
+        color: #86878B;
+        font-size: 14px;
+        font-weight: 400;
+    } 
+
+h4
+    {
+        color: #333333;
+        font-weight: bold;
+        font-size: 20px;
+        height: 21px;
+    }
+
+p
+    {
+        color: #86878B;
+        font-size: 14px;
+        font-weight: 400;
+        width: 350px;
+        height: 52px;    
+    }
+
+.container
+    {
+        padding: 66px 0 0 0;
+        font-size: 0px;
+        margin: 0;
+    }
+
+img
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.box
+    {
+        font-size: 20px;
+        display: inline-block;
+        width: 350px;
+        height: 197px;
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+
+.circle
+    {
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        border: 2px solid #FF8C2D;
+        border-radius: 100%;
+        position: relative;
+    }
+
+
+    .wrapper
+    {
+        height: 320px;
+        width: 1400px;
+        color: #FFFFFF;
+        background: url("../img/usa-street.png") no-repeat center border-box #000000;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.title
+    {
+        font-size: 36px;
+        color: #FFFFFF;
+        padding: 76px 0 0 0;
+    }
+
+.divider-white
+    {
+        background-color: #FFFFFF;
+    }
+
+.sometext
+    {
+        color: rgba(255,255,255, 0.8);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0 0 13px 0;
+    }
+
+.download-button
+    {
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 9px 29px 9px 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        outline: 0;
+    }
+
+footer
+    {
+        width: 1400px;
+        height: 100px;
+        background: #000000 no-repeat;
+        color: rgba(255,255,255, 0.5019607843137255);
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+span
+    {
+        margin: 0 auto 0 auto;
+    }
+
+a   
+    {
+    background: url("../img/sprite.png") no-repeat;
+    height: 23px;
+    width: 26px;
+    display: inline-block;
+    margin-top: 39px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    }
+
+a.facebook { background-position: left top; }
+a.twitter { background-position: -42px top; }
+a.gplus { background-position: -95px top; }
+a.pinterest { background-position: -140px top; }
+a.instagram { background-position: -190px top; }
+a.stumbleupon { background-position: -242px top; }
+a.rss { background-position: -294px top; }
